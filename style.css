@@ -91,6 +91,7 @@ margin: 15px;
 }
 .edu {
 margin-top: 15px;
+text-align: left;
 }
 
 /* WORK */
@@ -119,4 +120,23 @@ margin: 15px;
 }
 .fourdog li {
 margin: 15px;
+}
+
+/* VOLUNTEER */
+.volunteer {
+}
+.para1,
+.para2{
+text-align: left;
+padding-top: 40px;
+display: flex;
+width: 400px;
+flex-direction: column;
+}
+.experience {
+display: flex;
+flex-direction: row;
+}
+.para2 {
+padding-left: 140px;
 }
