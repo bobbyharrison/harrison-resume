@@ -46,6 +46,7 @@ text-align: center;
 h2 {
 font-size: 36px;
 }
+
 /* HEADER */
 .header {
 display: inline;
@@ -90,4 +91,32 @@ margin: 15px;
 }
 .edu {
 margin-top: 15px;
+}
+
+/* WORK */
+h4 {
+font-size: 21px;
+text-align: center;
+}
+.work {
+}
+.fourdog,
+.highland {
+padding-top: 40px;
+display: flex;
+width: 400px;
+flex-direction: column;
+}
+.works {
+display: flex;
+flex-direction: row;
+}
+.highland {
+padding-left: 140px;
+}
+.highland li {
+margin: 15px;
+}
+.fourdog li {
+margin: 15px;
 }
