@@ -73,3 +73,21 @@ margin: 15px;
 margin-top: 40px;
 margin-bottom: 40px;
 }
+
+/* SKILLS/EDUCATION */
+.ed-skill {
+display: flex;
+}
+.education {
+width: 480px;
+}
+.skills {
+width: 400px;
+padding-left: 90px;
+}
+.skills li {
+margin: 15px;
+}
+.edu {
+margin-top: 15px;
+}
