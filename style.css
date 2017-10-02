@@ -39,6 +39,21 @@ q:before, q:after {
 }
 
 body {
+width: 960px;
+height: 100%;
+text-align: center;
+}
 
+.header {
+display: inline-block;
+}
+
+h1 {
+	font-size: 72px;
+
+}
+
+.headerlist {
+text-align: right;
 
 }
