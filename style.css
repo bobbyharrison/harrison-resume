@@ -37,23 +37,28 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-
 body {
 width: 960px;
 height: 100%;
+margin: 40px;
 text-align: center;
 }
 
+/* HEADER */
 .header {
-display: inline-block;
+display: inline;
 }
-
 h1 {
-	font-size: 72px;
-
+font-size: 72px;
+float: left;
 }
-
 .headerlist {
 text-align: right;
-
+padding-top: 30px;
+}
+.borderheader {
+border-width: 1px;
+border-color: black;
+border-style: solid;
+margin: 20px 0px 20px 0px;
 }
