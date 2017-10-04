@@ -38,10 +38,12 @@ q:before, q:after {
 	content: none;
 }
 body {
-width: 960px;
+max-width: 960px;
 height: 100%;
-margin: 40px;
+margin: auto;
 text-align: center;
+font-family: Georgia, sans-serif;
+padding: 50px 0 50px 0;
 }
 h2 {
 font-size: 36px;
@@ -50,6 +52,7 @@ font-size: 36px;
 /* HEADER */
 .header {
 display: inline;
+padding: 50px;
 }
 h1 {
 font-size: 72px;
@@ -57,7 +60,7 @@ float: left;
 }
 .headerlist {
 text-align: right;
-padding-top: 30px;
+padding-top: 17px;
 }
 .border {
 border-width: 1px;
@@ -71,13 +74,13 @@ margin: 20px 0px 20px 0px;
 margin: 15px;
 }
 .obj {
-margin-top: 40px;
-margin-bottom: 40px;
+padding: 50px;
 }
 
 /* SKILLS/EDUCATION */
 .ed-skill {
 display: flex;
+padding: 50px;
 }
 .education {
 width: 480px;
@@ -100,6 +103,7 @@ font-size: 21px;
 text-align: center;
 }
 .work {
+padding: 50px;
 }
 .fourdog,
 .highland {
@@ -124,6 +128,7 @@ margin: 15px;
 
 /* VOLUNTEER */
 .volunteer {
+padding: 50px;
 }
 .para1,
 .para2{
@@ -145,4 +150,28 @@ padding-left: 140px;
 .hobbyp{
 margin-top: 40px;
 text-align: left;
+}
+.hobbys{
+padding: 50px;
+}
+
+/* FOOTER */
+.contact {
+padding: 50px;
+background-color: lightblue;
+}
+.rob,
+.git{
+text-align: left;
+display: flex;
+width: 300px;
+flex-direction: column;
+}
+.yo {
+display: flex;
+flex-direction: row;
+}
+.me{
+	text-align: left;
+	padding-bottom: 20px;
 }
